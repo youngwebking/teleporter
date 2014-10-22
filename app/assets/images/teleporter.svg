@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="400"
+   height="400"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="teleporter.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.5508848"
+     inkscape:cx="-0.57108082"
+     inkscape:cy="367.12534"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="682"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-652.36218)">
+    <g
+       id="g3064"
+       transform="translate(-731.55041,3.6305231)">
+      <path
+         inkscape:connector-curvature="0"
+         id="rect2989"
+         d="m 174.86161,319.80357 153.25,-181.8125 -64.6875,0 0,-142.875 -177.125,0 0,142.875 -64.6875,0 153.25,181.8125 z"
+         style="fill:#220055;fill-opacity:1;stroke:none" />
+      <path
+         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         d="m 174.86161,26.9693 58.96429,110.30178 -24.88908,0 0,86.67923 -68.15041,0 0,-86.67923 -24.88909,0 58.96429,-110.30178 z"
+         id="path3002"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g3068"
+       transform="translate(-731.55041,3.6305231)">
+      <path
+         style="fill:#7137c8;fill-opacity:1;stroke:none"
+         d="m 514.86161,319.80357 153.25,-181.8125 -64.6875,0 0,-142.875 -177.125,0 0,142.875 -64.6875,0 153.25,181.8125 z"
+         id="path3006"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3008"
+         d="m 514.86161,26.9693 58.96429,110.30178 -24.88908,0 0,86.67923 -68.15041,0 0,-86.67923 -24.88909,0 58.96429,-110.30178 z"
+         style="fill:#ffffff;fill-opacity:1;stroke:none" />
+    </g>
+    <path
+       style="fill:#7137c8;fill-opacity:1;stroke:none"
+       d="m 84.38909,652.36218 0,24.97213 22.50375,0 0,20.75606 20.61413,0 0,-20.75606 21.98841,0 1.37427,0 21.98841,0 0,20.75606 0,1.29724 0,20.75606 -23.36268,0 0,-20.75606 -20.61413,0 0,19.4588 0,1.29726 0,20.75605 -21.9884,0 0,19.45881 0,1.29725 0,20.75606 -22.50376,0 0,45.97142 -84.38909,0 200,223.97894 200,-223.97894 -84.43204,0 0,-87.48354 -23.14795,0 0,-20.75605 -1.37428,0 -1.37427,0 -20.61413,0 0,20.67497 21.9884,0 0,22.05332 -23.36268,0 0,-21.97224 -21.9884,0 0,-20.75605 0,-1.29726 0,-19.01286 -20.44234,0 0,-0.44594 -22.28903,0 0,-22.0533 22.24608,0 0,-6.68896 0,-11.75637 0,-6.5268 -140.82027,0 z m 164.18295,0 0,6.5268 0,11.75637 0,7.13489 0.0429,0 0,20.31013 19.06807,0 1.37428,0 1.37427,0 0,-20.75606 23.36268,0 0,20.75606 21.77368,0 0,-45.72819 -66.99593,0 z m -164.18295,47.02543 0,19.4588 21.12948,0 0,-19.4588 -21.12948,0 z m 114.58021,19.4588 23.36267,0 0,21.97223 23.23385,0 0,22.05332 -23.36269,0 0,-21.97224 -23.23383,0 0,-22.05331 z m -49.47392,21.97223 23.36268,0 0,22.05332 -23.36268,0 0,-22.05332 z m 48.48615,20.75606 23.36269,0 0,22.05331 -23.36269,0 0,-22.05331 z m -49.47391,31.13409 23.36268,0 0,22.05331 -23.36268,0 0,-22.05331 z"
+       id="path3125"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/media/brant/BRANT'S USB/Projects/Teleporter/teleporter.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:53.17205429px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       x="-441.7272"
+       y="585.86365"
+       id="text3177"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3179"
+         x="-441.7272"
+         y="585.86365">Teleporter</tspan></text>
+  </g>
+</svg>

@@ -2,13 +2,19 @@
 <html>
 <head>
   <title>Teleport</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <%= favicon_link_tag 'favicon.ico' %>
+  <%= favicon_link_tag 'teleporter.png', rel: 'apple-touch-icon', type: 'image/png' %>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+<%= render 'layouts/navbar' %>
 
-<%= yield %>
+<section class="container">
+  <%= yield %>
+</section>
 
 </body>
 </html>
