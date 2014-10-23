@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Teleport</title>
+  <title><%= yield :page_title %> | Teleporter</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <%= favicon_link_tag 'favicon.ico' %>
   <%= favicon_link_tag 'teleporter.png', rel: 'apple-touch-icon', type: 'image/png' %>
@@ -13,7 +13,10 @@
 <%= render 'layouts/navbar' %>
 
 <section class="container">
-  <%= yield %>
+  <h1 class="text-center page-header"><%= yield :page_header %></h1>
+  <div class="container row">
+    <%= yield %>
+  </div>
 </section>
 
 </body>

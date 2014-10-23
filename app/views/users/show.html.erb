@@ -1,2 +1,4 @@
-<h1>Users#show</h1>
-<p>Find me in app/views/users/show.html.erb</p>
+<%= content_for :page_title do %>Profile<% end %>
+<%= content_for :page_header do %>Profile<% end %>
+
+<p>Email: <%= @user.email %></p>
