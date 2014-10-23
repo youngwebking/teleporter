@@ -1,6 +1,11 @@
 Rails.application.routes.draw do
 
+  get   '/signup'  => 'users#new',        as: 'signup'
+  match '/signin'  => 'sessions#new',     as: 'signin', via: :all
+  get   '/signout' => 'sessions#destroy', as: 'signout'
+
   resources :users
+  resources :sessions
   
   root 'users#new'
 

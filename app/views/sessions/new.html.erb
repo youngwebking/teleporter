@@ -1,0 +1,37 @@
+<%= content_for :page_title do %>Sign in<% end %>
+<%= content_for :page_header do %>Sign in<% end %>
+
+<div class="col-md-6">
+  <%= image_tag 'teleporter.svg', id:'giant-logo' %>
+</div>
+<div class="col-md-6">
+  <%= form_tag sessions_path, role:'form' do %>
+<!--    <div class="form-group">-->
+<!--      <%# errors.full_messages.each do |msg| %>-->
+<!--        <p><%#= msg %></p>-->
+<!--      <%# end %>-->
+<!--    </div>-->
+    <div class="form-group">
+      <%= label_tag :email %>
+      <%#= email_field_tag :email, class:'form-control', placeholder:'john.smith@example.com' %>
+      <input type="email" name="email" class="form-control" placeholder="john.smith@example.com">
+    </div>
+    <div class="form-group">
+      <%= label_tag :password %>
+      <%#= password_field_tag :password, class:'form-control', placeholder:'password' %>
+      <input type="password" name="password" class="form-control" placeholder="password">
+    </div>
+<!--      <div class="form-group">-->
+<!--        <label for="exampleInputFile">File input</label>-->
+<!--        <input type="file" id="exampleInputFile">-->
+<!--        <p class="help-block">Example block-level help text here.</p>-->
+<!--      </div>-->
+<!--      <div class="checkbox">-->
+<!--        <label>-->
+<!--          <input type="checkbox"> Check me out-->
+<!--        </label>-->
+<!--      </div>-->
+    <%= submit_tag "Sign in!", class:'btn btn-lg btn-primary' %>
+  <% end %>
+  <p>Don&apos;t have an account? Sign up <%= link_to "here!", signup_path %></p>
+</div>

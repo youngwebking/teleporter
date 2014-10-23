@@ -13,7 +13,7 @@
     </div>
     <div class="form-group">
       <%= f.label :email %>
-      <%= f.text_field :email, class:'form-control', placeholder:'john.smith@example.com' %>
+      <%= f.email_field :email, class:'form-control', placeholder:'john.smith@example.com' %>
     </div>
     <div class="form-group">
       <%= f.label :password %>
@@ -35,4 +35,5 @@
 <!--      </div>-->
     <%= f.submit "Sign up!", class:'btn btn-lg btn-primary' %>
   <% end %>
+  <p>Already have an account? Sign in <%= link_to "here!", signin_path %></p>
 </div>
