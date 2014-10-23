@@ -11,6 +11,9 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 
 gem 'puma'
+gem 'rmagick'
+gem 'carrierwave'
+gem 'bcrypt', '~> 3.1.7'
 
 group :doc do
   gem 'sdoc', '~> 0.4.0'
