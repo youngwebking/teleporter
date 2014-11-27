@@ -14,7 +14,6 @@ gem 'puma'
 gem 'rmagick'
 gem 'carrierwave'
 gem 'bcrypt', '~> 3.1.7'
-gem 'hrecord'
 
 group :doc do
   gem 'sdoc', '~> 0.4.0'
@@ -24,6 +23,7 @@ group :development do
   gem 'spring'
   gem 'faker'
   gem 'sqlite3'
+  gem 'hrecord'
 end
 
 group :production do
