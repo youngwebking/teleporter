@@ -8,7 +8,7 @@ namespace :db do
     
     files = ['ball_bearings','bishop','iPhone_case','knight','legos','turkey_gobbler','virus']
     items = ['Ball Bearings','Bishop','iPhone Case','Knight','Legos','Turkey Gobbler','Virus']
-    file_dir = '/var/www/teleport/lib/sample_data/'
+    file_dir = Rails.root.join('lib', 'sample_data')
     
     files.length.times do |i|
       name = items[i-1]
