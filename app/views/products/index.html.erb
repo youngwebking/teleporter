@@ -1,0 +1,12 @@
+<h1>Products</h1>
+<% (@products.count / 3.0).ceil.times do |i| %>
+  <div class="tile-row">
+    <% [@products[i-1],@products[i],@products[i+1]].each do |product| %>
+      <div class="tile-col tile">
+        <%= link_to product_path(product) do %>
+          <%= product.name %>: $<%= product.price %>
+        <% end %>
+      </div>
+    <% end %>
+  </div>
+<% end %>

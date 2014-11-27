@@ -3,11 +3,13 @@ Rails.application.routes.draw do
   get   '/signup'  => 'users#new',        as: 'signup'
   match '/signin'  => 'sessions#new',     as: 'signin', via: :all
   get   '/signout' => 'sessions#destroy', as: 'signout'
+  #get   '/products/:uuid' => 'products#show', as: 'product'
 
   resources :users
   resources :sessions
+  resources :products
   
-  root 'users#new'
+  root 'products#index'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

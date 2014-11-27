@@ -1,0 +1,29 @@
+<h1>New Product</h1>
+<%= form_for @product, multipart: true do |f| %>
+  <div class="form-group">
+    <%= f.label :name %>
+    <%= f.text_field :name, class:'form-control', placeholder:'Product Name' %>
+  </div>
+    
+  <div class="form-group">
+    <%= f.label :price %>
+    <%= f.text_field :price, class:'form-control', placeholder:'Product Price' %>
+  </div>
+  
+  <div class="form-group">
+    <%= f.label :description %>
+    <%= f.file_field :description %>
+  </div>
+  
+  <div class="form-group">
+    <%= f.label :image %>
+    <%= f.file_field :image %>
+  </div>
+  
+  <div class="form-group">
+    <%= f.label :gcode %>
+    <%= f.file_field :gcode %>
+  </div>
+  
+  <%= f.submit 'Create', class:'btn btn-lg btn-primary' %>
+<% end %>

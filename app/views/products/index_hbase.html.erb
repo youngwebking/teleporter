@@ -1,0 +1,10 @@
+<h1>Products</h1>
+<ol>
+  <% @products.each do |product| %>
+    <li>
+      <%= link_to product_path(product.row_key.to_s) do %>
+        <%= product.attrs['name'] %> [<%= product.row_key %>] - $<%= product.attrs['price'] %>
+      <% end %>
+    </li>
+  <% end %>
+</ol>

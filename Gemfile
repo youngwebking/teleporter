@@ -14,6 +14,7 @@ gem 'puma'
 gem 'rmagick'
 gem 'carrierwave'
 gem 'bcrypt', '~> 3.1.7'
+gem 'hrecord'
 
 group :doc do
   gem 'sdoc', '~> 0.4.0'

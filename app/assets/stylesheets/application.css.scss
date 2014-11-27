@@ -30,3 +30,21 @@ h1{
   border-radius: 6px;
   background-color: #eee;
 }
+
+.tile-row{
+  display: flex;
+  flex-flow: row;
+}
+
+.tile-col{
+  display: flex;
+  flex-flow: column;
+  flex: 1;
+}
+
+.tile{
+  margin: 6px;
+  padding: 6px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}

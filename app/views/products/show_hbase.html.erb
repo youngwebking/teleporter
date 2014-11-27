@@ -1,0 +1,7 @@
+<h1><%= @product.attrs['name'] %></h1>
+<ol>
+  <% @product.attrs.each do |attr| %>
+  <li><%= attr[0].capitalize %>: <%= @product.attrs[attr[0]] %></li>
+  <% end %>
+  <%#= @product.files['description'].path %>
+</ol>
